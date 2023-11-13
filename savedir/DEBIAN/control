@@ -1,0 +1,11 @@
+Package: savedir
+Version: 1.0-1
+Section: utils
+Priority: optional
+Architecture: all
+Depends: bash (>= 4.0)
+Maintainer: Samy <samymammeri329@gmail.com>
+Description: Utility scripts to save and load directories
+ This package provides two simple Bash scripts: save_current_dir.sh and
+ load_last_dir.sh, allowing users to save their current directory and
+ load the last saved directory respectively.

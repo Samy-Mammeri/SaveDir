@@ -13,8 +13,9 @@ To install the `savedir` package via `apt`, you need to add the repository to yo
 
 Add the following line to your sources list:
 
+ ``` 
 deb [trusted=yes] https://raw.githubusercontent.com/Samy-Mammeri/SaveDir/main/ ./
-
+ ``` 
 
 **Note**: The `[trusted=yes]` option is necessary because the repository is not signed. This is not recommended for production use due to security reasons but is suitable for personal or limited use.
 

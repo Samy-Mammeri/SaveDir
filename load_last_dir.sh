@@ -8,14 +8,14 @@ if [ -s "$SAVE_FILE" ]; then
     # Read the saved directory
     LAST_DIR=$(cat "$SAVE_FILE")
 
- # Ask if change is wanted
-echo "do you want to cd to your last saved location ?[Y/n]"
-read REP
-if [ REP == [ "Y" || "y" || "Yes" ] ]; then
-    # Change to the directory
-    cd "$LAST_DIR" || exit
-    echo "Changed to directory: $LAST_DIR"
-fi
+    # Ask if change is wanted
+    echo "Do you want to cd to your last saved location? [Y/n]"
+    read REP
+    if [ "$REP" == "Y" ] || [ "$REP" == "y" ] || [ "$REP" == "Yes" ]; then
+        # Change to the directory
+        cd "$LAST_DIR" || exit
+        echo "Changed to directory: $LAST_DIR"
+    fi
 else
     echo "No saved directory found."
 fi

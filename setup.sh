@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # Define the directory where the scripts will be downloaded to

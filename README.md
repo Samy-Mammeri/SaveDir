@@ -35,4 +35,4 @@ After installation, you can use the following commands in your shell:
 
 ## Contributing
 
-Contributions to the `savedir` project are welcome. Please feel free to submit issues and pull requests through the GitHub repository.
+Contributions to the `savedir` project are welcome. Please feel free to submit any issues and pull requests.

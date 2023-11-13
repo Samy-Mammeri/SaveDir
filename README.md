@@ -23,6 +23,7 @@ deb [trusted=yes] https://raw.githubusercontent.com/Samy-Mammeri/SaveDir/main/ .
 After adding the repository, you can install the `savedir` package using the following commands:
 
 sudo apt update
+
 sudo apt install savedir
 
 

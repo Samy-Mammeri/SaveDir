@@ -1,4 +1,4 @@
-# Savedir Package
+# Savedir Package [DOESN'T WORK YET]
 
 ## Overview
 The `savedir` package provides a convenient set of scripts for saving and loading the last used directories in a shell environment. It includes `save_current_dir.sh` to save the current directory and `load_last_dir.sh` to load the last saved directory.
